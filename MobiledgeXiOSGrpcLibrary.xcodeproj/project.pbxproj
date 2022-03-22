@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409302D127E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.docc in Sources */ = {isa = PBXBuildFile; fileRef = 409302D027E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.docc */; };
+		409302D727E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409302CC27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.framework */; };
+		409302DC27E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302DB27E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests.swift */; };
+		4093031527E955BA00B3A16C /* MobiledgeXLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302E827E955BA00B3A16C /* MobiledgeXLocationManager.swift */; };
+		4093031627E955BA00B3A16C /* MobiledgeXLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302E927E955BA00B3A16C /* MobiledgeXLocation.swift */; };
+		4093031727E955BA00B3A16C /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302EB27E955BA00B3A16C /* NetworkInterface.swift */; };
+		4093031827E955BA00B3A16C /* FindCloudletEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302ED27E955BA00B3A16C /* FindCloudletEvent.swift */; };
+		4093031927E955BA00B3A16C /* EdgeEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302EE27E955BA00B3A16C /* EdgeEvents.swift */; };
+		4093031A27E955BA00B3A16C /* EdgeEventsErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302EF27E955BA00B3A16C /* EdgeEventsErrors.swift */; };
+		4093031B27E955BA00B3A16C /* EdgeEventsConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302F027E955BA00B3A16C /* EdgeEventsConnection.swift */; };
+		4093031C27E955BA00B3A16C /* EdgeEventsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302F127E955BA00B3A16C /* EdgeEventsConfig.swift */; };
+		4093031D27E955BA00B3A16C /* CarrierInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302F327E955BA00B3A16C /* CarrierInfo.swift */; };
+		4093031E27E955BA00B3A16C /* MatchingEngineState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302F527E955BA00B3A16C /* MatchingEngineState.swift */; };
+		4093031F27E955BA00B3A16C /* MobiledgeXiOSLibraryGrpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302F627E955BA00B3A16C /* MobiledgeXiOSLibraryGrpc.swift */; };
+		4093032027E955BA00B3A16C /* dynamic-location-group.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302F827E955BA00B3A16C /* dynamic-location-group.grpc.swift */; };
+		4093032127E955BA00B3A16C /* MatchingEngineErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302F927E955BA00B3A16C /* MatchingEngineErrors.swift */; };
+		4093032227E955BA00B3A16C /* dynamic-location-group.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302FA27E955BA00B3A16C /* dynamic-location-group.pb.swift */; };
+		4093032327E955BA00B3A16C /* GetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302FC27E955BA00B3A16C /* GetConnection.swift */; };
+		4093032427E955BA00B3A16C /* GetTLSConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302FD27E955BA00B3A16C /* GetTLSConnectionHelper.swift */; };
+		4093032527E955BA00B3A16C /* GetConnectionErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302FE27E955BA00B3A16C /* GetConnectionErrors.swift */; };
+		4093032627E955BA00B3A16C /* GetConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409302FF27E955BA00B3A16C /* GetConnectionHelper.swift */; };
+		4093032727E955BA00B3A16C /* GetBSDSocketHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030027E955BA00B3A16C /* GetBSDSocketHelper.swift */; };
+		4093032827E955BA00B3A16C /* GetPorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030127E955BA00B3A16C /* GetPorts.swift */; };
+		4093032927E955BA00B3A16C /* GetConnectionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030227E955BA00B3A16C /* GetConnectionUtil.swift */; };
+		4093032A27E955BA00B3A16C /* RegisterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030327E955BA00B3A16C /* RegisterClient.swift */; };
+		4093032B27E955BA00B3A16C /* app-client.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030427E955BA00B3A16C /* app-client.grpc.swift */; };
+		4093032C27E955BA00B3A16C /* AddUserToGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030527E955BA00B3A16C /* AddUserToGroup.swift */; };
+		4093032D27E955BA00B3A16C /* AppInstList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030627E955BA00B3A16C /* AppInstList.swift */; };
+		4093032E27E955BA00B3A16C /* loc.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030727E955BA00B3A16C /* loc.pb.swift */; };
+		4093032F27E955BA00B3A16C /* app-client.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030827E955BA00B3A16C /* app-client.pb.swift */; };
+		4093033027E955BA00B3A16C /* FindCloudlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030927E955BA00B3A16C /* FindCloudlet.swift */; };
+		4093033127E955BA00B3A16C /* MatchingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030A27E955BA00B3A16C /* MatchingEngine.swift */; };
+		4093033227E955BA00B3A16C /* VerifyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030B27E955BA00B3A16C /* VerifyLocation.swift */; };
+		4093033327E955BA00B3A16C /* QoSPositionKpi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030C27E955BA00B3A16C /* QoSPositionKpi.swift */; };
+		4093033427E955BA00B3A16C /* MatchingEngineUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030D27E955BA00B3A16C /* MatchingEngineUtil.swift */; };
+		4093033527E955BA00B3A16C /* StartEdgeEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030E27E955BA00B3A16C /* StartEdgeEvents.swift */; };
+		4093033627E955BA00B3A16C /* appcommon.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093030F27E955BA00B3A16C /* appcommon.pb.swift */; };
+		4093033727E955BA00B3A16C /* RegisterAndFindCloudlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093031027E955BA00B3A16C /* RegisterAndFindCloudlet.swift */; };
+		4093033827E955BA00B3A16C /* NetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093031227E955BA00B3A16C /* NetTest.swift */; };
+		4093033927E955BA00B3A16C /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093031327E955BA00B3A16C /* Site.swift */; };
+		4093033A27E955BA00B3A16C /* PerformanceMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093031427E955BA00B3A16C /* PerformanceMetrics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409302D827E9558000B3A16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409302C327E9557F00B3A16C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409302CB27E9558000B3A16C;
+			remoteInfo = MobiledgeXiOSGrpcLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		409302CC27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobiledgeXiOSGrpcLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409302D027E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MobiledgeXiOSGrpcLibrary.docc; sourceTree = "<group>"; };
+		409302D627E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiledgeXiOSGrpcLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		409302DB27E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiledgeXiOSGrpcLibraryTests.swift; sourceTree = "<group>"; };
+		409302E827E955BA00B3A16C /* MobiledgeXLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobiledgeXLocationManager.swift; sourceTree = "<group>"; };
+		409302E927E955BA00B3A16C /* MobiledgeXLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobiledgeXLocation.swift; sourceTree = "<group>"; };
+		409302EB27E955BA00B3A16C /* NetworkInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		409302ED27E955BA00B3A16C /* FindCloudletEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCloudletEvent.swift; sourceTree = "<group>"; };
+		409302EE27E955BA00B3A16C /* EdgeEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeEvents.swift; sourceTree = "<group>"; };
+		409302EF27E955BA00B3A16C /* EdgeEventsErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeEventsErrors.swift; sourceTree = "<group>"; };
+		409302F027E955BA00B3A16C /* EdgeEventsConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeEventsConnection.swift; sourceTree = "<group>"; };
+		409302F127E955BA00B3A16C /* EdgeEventsConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeEventsConfig.swift; sourceTree = "<group>"; };
+		409302F327E955BA00B3A16C /* CarrierInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarrierInfo.swift; sourceTree = "<group>"; };
+		409302F527E955BA00B3A16C /* MatchingEngineState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingEngineState.swift; sourceTree = "<group>"; };
+		409302F627E955BA00B3A16C /* MobiledgeXiOSLibraryGrpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobiledgeXiOSLibraryGrpc.swift; sourceTree = "<group>"; };
+		409302F827E955BA00B3A16C /* dynamic-location-group.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "dynamic-location-group.grpc.swift"; sourceTree = "<group>"; };
+		409302F927E955BA00B3A16C /* MatchingEngineErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingEngineErrors.swift; sourceTree = "<group>"; };
+		409302FA27E955BA00B3A16C /* dynamic-location-group.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "dynamic-location-group.pb.swift"; sourceTree = "<group>"; };
+		409302FC27E955BA00B3A16C /* GetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetConnection.swift; sourceTree = "<group>"; };
+		409302FD27E955BA00B3A16C /* GetTLSConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTLSConnectionHelper.swift; sourceTree = "<group>"; };
+		409302FE27E955BA00B3A16C /* GetConnectionErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetConnectionErrors.swift; sourceTree = "<group>"; };
+		409302FF27E955BA00B3A16C /* GetConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetConnectionHelper.swift; sourceTree = "<group>"; };
+		4093030027E955BA00B3A16C /* GetBSDSocketHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBSDSocketHelper.swift; sourceTree = "<group>"; };
+		4093030127E955BA00B3A16C /* GetPorts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPorts.swift; sourceTree = "<group>"; };
+		4093030227E955BA00B3A16C /* GetConnectionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetConnectionUtil.swift; sourceTree = "<group>"; };
+		4093030327E955BA00B3A16C /* RegisterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterClient.swift; sourceTree = "<group>"; };
+		4093030427E955BA00B3A16C /* app-client.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "app-client.grpc.swift"; sourceTree = "<group>"; };
+		4093030527E955BA00B3A16C /* AddUserToGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUserToGroup.swift; sourceTree = "<group>"; };
+		4093030627E955BA00B3A16C /* AppInstList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInstList.swift; sourceTree = "<group>"; };
+		4093030727E955BA00B3A16C /* loc.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loc.pb.swift; sourceTree = "<group>"; };
+		4093030827E955BA00B3A16C /* app-client.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "app-client.pb.swift"; sourceTree = "<group>"; };
+		4093030927E955BA00B3A16C /* FindCloudlet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCloudlet.swift; sourceTree = "<group>"; };
+		4093030A27E955BA00B3A16C /* MatchingEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingEngine.swift; sourceTree = "<group>"; };
+		4093030B27E955BA00B3A16C /* VerifyLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyLocation.swift; sourceTree = "<group>"; };
+		4093030C27E955BA00B3A16C /* QoSPositionKpi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QoSPositionKpi.swift; sourceTree = "<group>"; };
+		4093030D27E955BA00B3A16C /* MatchingEngineUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingEngineUtil.swift; sourceTree = "<group>"; };
+		4093030E27E955BA00B3A16C /* StartEdgeEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartEdgeEvents.swift; sourceTree = "<group>"; };
+		4093030F27E955BA00B3A16C /* appcommon.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = appcommon.pb.swift; sourceTree = "<group>"; };
+		4093031027E955BA00B3A16C /* RegisterAndFindCloudlet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterAndFindCloudlet.swift; sourceTree = "<group>"; };
+		4093031227E955BA00B3A16C /* NetTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetTest.swift; sourceTree = "<group>"; };
+		4093031327E955BA00B3A16C /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
+		4093031427E955BA00B3A16C /* PerformanceMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceMetrics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409302C927E9558000B3A16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409302D327E9558000B3A16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409302D727E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409302C227E9557F00B3A16C = {
+			isa = PBXGroup;
+			children = (
+				409302CE27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary */,
+				409302DA27E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests */,
+				409302CD27E9558000B3A16C /* Products */,
+				BA4EDECDDA855D7D31AFB38B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		409302CD27E9558000B3A16C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409302CC27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.framework */,
+				409302D627E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409302CE27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				409302E627E955BA00B3A16C /* Sources */,
+				409302D027E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.docc */,
+			);
+			path = MobiledgeXiOSGrpcLibrary;
+			sourceTree = "<group>";
+		};
+		409302DA27E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				409302DB27E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests.swift */,
+			);
+			path = MobiledgeXiOSGrpcLibraryTests;
+			sourceTree = "<group>";
+		};
+		409302E627E955BA00B3A16C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				409302E727E955BA00B3A16C /* MobiledgeXLocation */,
+				409302EA27E955BA00B3A16C /* NetworkInterface */,
+				409302EC27E955BA00B3A16C /* EdgeEvents */,
+				409302F227E955BA00B3A16C /* CarrierInfo */,
+				409302F427E955BA00B3A16C /* MatchingEngineState */,
+				409302F627E955BA00B3A16C /* MobiledgeXiOSLibraryGrpc.swift */,
+				409302F727E955BA00B3A16C /* MatchingEngine */,
+				4093031127E955BA00B3A16C /* PerformanceMetrics */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		409302E727E955BA00B3A16C /* MobiledgeXLocation */ = {
+			isa = PBXGroup;
+			children = (
+				409302E827E955BA00B3A16C /* MobiledgeXLocationManager.swift */,
+				409302E927E955BA00B3A16C /* MobiledgeXLocation.swift */,
+			);
+			path = MobiledgeXLocation;
+			sourceTree = "<group>";
+		};
+		409302EA27E955BA00B3A16C /* NetworkInterface */ = {
+			isa = PBXGroup;
+			children = (
+				409302EB27E955BA00B3A16C /* NetworkInterface.swift */,
+			);
+			path = NetworkInterface;
+			sourceTree = "<group>";
+		};
+		409302EC27E955BA00B3A16C /* EdgeEvents */ = {
+			isa = PBXGroup;
+			children = (
+				409302ED27E955BA00B3A16C /* FindCloudletEvent.swift */,
+				409302EE27E955BA00B3A16C /* EdgeEvents.swift */,
+				409302EF27E955BA00B3A16C /* EdgeEventsErrors.swift */,
+				409302F027E955BA00B3A16C /* EdgeEventsConnection.swift */,
+				409302F127E955BA00B3A16C /* EdgeEventsConfig.swift */,
+			);
+			path = EdgeEvents;
+			sourceTree = "<group>";
+		};
+		409302F227E955BA00B3A16C /* CarrierInfo */ = {
+			isa = PBXGroup;
+			children = (
+				409302F327E955BA00B3A16C /* CarrierInfo.swift */,
+			);
+			path = CarrierInfo;
+			sourceTree = "<group>";
+		};
+		409302F427E955BA00B3A16C /* MatchingEngineState */ = {
+			isa = PBXGroup;
+			children = (
+				409302F527E955BA00B3A16C /* MatchingEngineState.swift */,
+			);
+			path = MatchingEngineState;
+			sourceTree = "<group>";
+		};
+		409302F727E955BA00B3A16C /* MatchingEngine */ = {
+			isa = PBXGroup;
+			children = (
+				409302F827E955BA00B3A16C /* dynamic-location-group.grpc.swift */,
+				409302F927E955BA00B3A16C /* MatchingEngineErrors.swift */,
+				409302FA27E955BA00B3A16C /* dynamic-location-group.pb.swift */,
+				409302FB27E955BA00B3A16C /* GetConnection */,
+				4093030327E955BA00B3A16C /* RegisterClient.swift */,
+				4093030427E955BA00B3A16C /* app-client.grpc.swift */,
+				4093030527E955BA00B3A16C /* AddUserToGroup.swift */,
+				4093030627E955BA00B3A16C /* AppInstList.swift */,
+				4093030727E955BA00B3A16C /* loc.pb.swift */,
+				4093030827E955BA00B3A16C /* app-client.pb.swift */,
+				4093030927E955BA00B3A16C /* FindCloudlet.swift */,
+				4093030A27E955BA00B3A16C /* MatchingEngine.swift */,
+				4093030B27E955BA00B3A16C /* VerifyLocation.swift */,
+				4093030C27E955BA00B3A16C /* QoSPositionKpi.swift */,
+				4093030D27E955BA00B3A16C /* MatchingEngineUtil.swift */,
+				4093030E27E955BA00B3A16C /* StartEdgeEvents.swift */,
+				4093030F27E955BA00B3A16C /* appcommon.pb.swift */,
+				4093031027E955BA00B3A16C /* RegisterAndFindCloudlet.swift */,
+			);
+			path = MatchingEngine;
+			sourceTree = "<group>";
+		};
+		409302FB27E955BA00B3A16C /* GetConnection */ = {
+			isa = PBXGroup;
+			children = (
+				409302FC27E955BA00B3A16C /* GetConnection.swift */,
+				409302FD27E955BA00B3A16C /* GetTLSConnectionHelper.swift */,
+				409302FE27E955BA00B3A16C /* GetConnectionErrors.swift */,
+				409302FF27E955BA00B3A16C /* GetConnectionHelper.swift */,
+				4093030027E955BA00B3A16C /* GetBSDSocketHelper.swift */,
+				4093030127E955BA00B3A16C /* GetPorts.swift */,
+				4093030227E955BA00B3A16C /* GetConnectionUtil.swift */,
+			);
+			path = GetConnection;
+			sourceTree = "<group>";
+		};
+		4093031127E955BA00B3A16C /* PerformanceMetrics */ = {
+			isa = PBXGroup;
+			children = (
+				4093031227E955BA00B3A16C /* NetTest.swift */,
+				4093031327E955BA00B3A16C /* Site.swift */,
+				4093031427E955BA00B3A16C /* PerformanceMetrics.swift */,
+			);
+			path = PerformanceMetrics;
+			sourceTree = "<group>";
+		};
+		BA4EDECDDA855D7D31AFB38B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		409302C727E9558000B3A16C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		409302CB27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409302E027E9558000B3A16C /* Build configuration list for PBXNativeTarget "MobiledgeXiOSGrpcLibrary" */;
+			buildPhases = (
+				409302C727E9558000B3A16C /* Headers */,
+				409302C827E9558000B3A16C /* Sources */,
+				409302C927E9558000B3A16C /* Frameworks */,
+				409302CA27E9558000B3A16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiledgeXiOSGrpcLibrary;
+			productName = MobiledgeXiOSGrpcLibrary;
+			productReference = 409302CC27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		409302D527E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409302E327E9558000B3A16C /* Build configuration list for PBXNativeTarget "MobiledgeXiOSGrpcLibraryTests" */;
+			buildPhases = (
+				409302D227E9558000B3A16C /* Sources */,
+				409302D327E9558000B3A16C /* Frameworks */,
+				409302D427E9558000B3A16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409302D927E9558000B3A16C /* PBXTargetDependency */,
+			);
+			name = MobiledgeXiOSGrpcLibraryTests;
+			productName = MobiledgeXiOSGrpcLibraryTests;
+			productReference = 409302D627E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409302C327E9557F00B3A16C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					409302CB27E9558000B3A16C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					409302D527E9558000B3A16C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 409302C627E9557F00B3A16C /* Build configuration list for PBXProject "MobiledgeXiOSGrpcLibrary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409302C227E9557F00B3A16C;
+			productRefGroup = 409302CD27E9558000B3A16C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409302CB27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary */,
+				409302D527E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409302CA27E9558000B3A16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409302D427E9558000B3A16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409302C827E9558000B3A16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4093033227E955BA00B3A16C /* VerifyLocation.swift in Sources */,
+				4093032827E955BA00B3A16C /* GetPorts.swift in Sources */,
+				4093031C27E955BA00B3A16C /* EdgeEventsConfig.swift in Sources */,
+				4093032127E955BA00B3A16C /* MatchingEngineErrors.swift in Sources */,
+				4093032627E955BA00B3A16C /* GetConnectionHelper.swift in Sources */,
+				4093032927E955BA00B3A16C /* GetConnectionUtil.swift in Sources */,
+				4093031F27E955BA00B3A16C /* MobiledgeXiOSLibraryGrpc.swift in Sources */,
+				4093032527E955BA00B3A16C /* GetConnectionErrors.swift in Sources */,
+				4093033427E955BA00B3A16C /* MatchingEngineUtil.swift in Sources */,
+				4093032B27E955BA00B3A16C /* app-client.grpc.swift in Sources */,
+				4093033927E955BA00B3A16C /* Site.swift in Sources */,
+				4093033127E955BA00B3A16C /* MatchingEngine.swift in Sources */,
+				4093033027E955BA00B3A16C /* FindCloudlet.swift in Sources */,
+				4093031727E955BA00B3A16C /* NetworkInterface.swift in Sources */,
+				4093032D27E955BA00B3A16C /* AppInstList.swift in Sources */,
+				4093033827E955BA00B3A16C /* NetTest.swift in Sources */,
+				4093032427E955BA00B3A16C /* GetTLSConnectionHelper.swift in Sources */,
+				4093032227E955BA00B3A16C /* dynamic-location-group.pb.swift in Sources */,
+				4093032C27E955BA00B3A16C /* AddUserToGroup.swift in Sources */,
+				4093031627E955BA00B3A16C /* MobiledgeXLocation.swift in Sources */,
+				4093033527E955BA00B3A16C /* StartEdgeEvents.swift in Sources */,
+				4093032E27E955BA00B3A16C /* loc.pb.swift in Sources */,
+				4093031827E955BA00B3A16C /* FindCloudletEvent.swift in Sources */,
+				4093033627E955BA00B3A16C /* appcommon.pb.swift in Sources */,
+				4093031E27E955BA00B3A16C /* MatchingEngineState.swift in Sources */,
+				4093031D27E955BA00B3A16C /* CarrierInfo.swift in Sources */,
+				4093032027E955BA00B3A16C /* dynamic-location-group.grpc.swift in Sources */,
+				4093033727E955BA00B3A16C /* RegisterAndFindCloudlet.swift in Sources */,
+				4093032F27E955BA00B3A16C /* app-client.pb.swift in Sources */,
+				4093032727E955BA00B3A16C /* GetBSDSocketHelper.swift in Sources */,
+				4093031927E955BA00B3A16C /* EdgeEvents.swift in Sources */,
+				4093031527E955BA00B3A16C /* MobiledgeXLocationManager.swift in Sources */,
+				4093031A27E955BA00B3A16C /* EdgeEventsErrors.swift in Sources */,
+				4093033327E955BA00B3A16C /* QoSPositionKpi.swift in Sources */,
+				409302D127E9558000B3A16C /* MobiledgeXiOSGrpcLibrary.docc in Sources */,
+				4093032A27E955BA00B3A16C /* RegisterClient.swift in Sources */,
+				4093033A27E955BA00B3A16C /* PerformanceMetrics.swift in Sources */,
+				4093032327E955BA00B3A16C /* GetConnection.swift in Sources */,
+				4093031B27E955BA00B3A16C /* EdgeEventsConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409302D227E9558000B3A16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409302DC27E9558000B3A16C /* MobiledgeXiOSGrpcLibraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409302D927E9558000B3A16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409302CB27E9558000B3A16C /* MobiledgeXiOSGrpcLibrary */;
+			targetProxy = 409302D827E9558000B3A16C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		409302DE27E9558000B3A16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		409302DF27E9558000B3A16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		409302E127E9558000B3A16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BJTX9P49P6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledgex.MobiledgeXiOSGrpcLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		409302E227E9558000B3A16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BJTX9P49P6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledgex.MobiledgeXiOSGrpcLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		409302E427E9558000B3A16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BJTX9P49P6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledgex.MobiledgeXiOSGrpcLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		409302E527E9558000B3A16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BJTX9P49P6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledgex.MobiledgeXiOSGrpcLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409302C627E9557F00B3A16C /* Build configuration list for PBXProject "MobiledgeXiOSGrpcLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409302DE27E9558000B3A16C /* Debug */,
+				409302DF27E9558000B3A16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409302E027E9558000B3A16C /* Build configuration list for PBXNativeTarget "MobiledgeXiOSGrpcLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409302E127E9558000B3A16C /* Debug */,
+				409302E227E9558000B3A16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409302E327E9558000B3A16C /* Build configuration list for PBXNativeTarget "MobiledgeXiOSGrpcLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409302E427E9558000B3A16C /* Debug */,
+				409302E527E9558000B3A16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409302C327E9557F00B3A16C /* Project object */;
+}
